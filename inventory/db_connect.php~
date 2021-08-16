@@ -1,0 +1,9 @@
+<?php if (!$link = mysql_connect('10.2.107.108', 'b3tech', '1qaz2wsx!QAZ@WSX')) {
+    echo 'Could not connect to mysql';
+    exit;
+}
+if (!mysql_select_db('Inventory', $link)) {
+    echo 'Could not select database';
+    exit;
+}
+?>

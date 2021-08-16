@@ -1,0 +1,87 @@
+label,a, body {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+.err {
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 12px;
+	color: red;
+}
+
+.editableTable 
+{
+    border:solid 1px;
+    width:100%
+}
+ 
+.editableTable td 
+{
+	border:solid 1px;
+}
+ 
+.editableTable .cellEditing
+{
+    padding: 0;
+}
+ 
+.editableTable .cellEditing input[type=text]
+{
+    width:100%;
+    border:0;
+}
+
+.editableTable td input[disabled]
+{
+	color: rgb(0,0,0);
+}
+
+.editableTable td input
+{
+	background-color:rgb(255,255,255);
+	font-size: 12px;	
+}
+
+.legend 
+{
+	background-color:#C0C0C0;
+}
+
+.legend td
+{
+	font-weight:bold;
+}
+
+.loading
+{
+position: fixed;
+z-index: 100;
+font-weight: bold;
+height: 100%;
+width: 100%;
+text-align: center;
+background:url("../loading.GIF");
+background-repeat:no-repeat;
+background-position:center;
+}
+
+.loading p
+{
+position: absolute;
+color: black;
+font-size: 16px;
+top: 58%;
+left: 46%;
+height: 100%;
+widht: 100%;
+}
+
+.loading span
+{
+background-color:white;
+}
+
+.updateMeCss
+{
+display: none;
+}
+
